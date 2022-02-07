@@ -6,9 +6,9 @@ Règles :
   à l'autre extrémité de l'échelle.
 - si la case d'arrivée est un serpent le joueur recule jusqu'à la case correspondante
   à la queue du serpent.
-- si la somme des dés et du numéro de la case dépasse 100 le joueur avance jusqu'à la case 100 puis
+- si la somme des dés et du numéro de la case dépasse la case maximale le joueur avance jusqu'à la case maximale puis
   recule du nombre de cases restantes.
-- le jeu se termine quand le joueur arrive pile sur la case 100.
+- le jeu se termine quand le joueur arrive pile sur la case maximale.
 
 Fichiers :
 - serpents.c : Code C du déroulement d'une partie
